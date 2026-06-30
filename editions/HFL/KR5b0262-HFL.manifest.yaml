@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0262/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0262/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈寶淨明院真師密誥
+  date: '2015-08-29 00:15:25.095303'
+  source:
+    repository: kanripo
+    path: KR5b0262
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0262_000-HFL.yaml, hash: 'sha256:fe0cbe672f9e0d4bccb58280fe4235cfb039fbed882e4c5a387859ee6145f941'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0262_000-HFL.markers.yaml, hash: 'sha256:55e7abeb91a2694d849413ad39e7038b865953c0c1f9fc9b6a3ce90ff1fb70e5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0262_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 540
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a57c5e2a2173635f44bc85393e95991307e49f22fa39e2c9d72997bc335fb9a3
